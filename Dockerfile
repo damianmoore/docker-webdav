@@ -16,5 +16,5 @@ RUN set -eux; \
 COPY files/create-htpasswd.sh /custom-cont-init.d/
 
 # exposed ports & volumes
-EXPOSE 443
+EXPOSE 80
 VOLUME /var/www/dav
